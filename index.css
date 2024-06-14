@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background{
+           background-image: url("background.jpg");
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.container{
+    display: grid;
+    place-items: center;
+    height: 90vh;
+}
+.container h1{
+    font-size:4rem ;
+    color: rgb(102, 54, 63);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.setting{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.setting .fa-solid{
+    color: antiquewhite;
+    font-size: 2rem;
+}
+.content input{
+        padding: 1rem 1rem;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+        border: none;
+}
+.content button{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem 2rem;
+    background-color: rgb(64, 29, 121);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+/* show and hide the calender when we click on setting icon */
+.hide{
+    display: none;
+}
+/* timer contaiern design */
+.time-cotainer{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+}
+.time-cotainer h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.time-cotainer div{
+    font-size: 5rem;
+    color: white;
+}
